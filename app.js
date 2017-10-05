@@ -89,10 +89,7 @@ if(req.method.toLowerCase() == 'get') {
 
         res.writeHead(200, {'content-type': 'text/plain'});
         res.write('Post has been created!:\nYou can go back now!\n');
-        
         res.end();
-
-      // res.end(util.inspect({fields: fields, files: files}));
     })
  }
  else {
@@ -103,10 +100,3 @@ if(req.method.toLowerCase() == 'get') {
 
 console.log("Server listening at port "+port);
 
-module.exports = {
-    add(dir, data) {
-        fs.writeFile(dir, data, 'utf8', (err)=>{
-            if(err) console.log(err)
-        })
-    }
-}
