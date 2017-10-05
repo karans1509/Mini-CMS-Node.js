@@ -1,0 +1,18 @@
+Team Members- 
+1. Karan Saini 
+   Student ID - 100290458
+   Email ID - ksaini02@langara.ca
+2. Dilpreet Kaur 
+   Student ID - 100288689
+   Email ID - dilpreetk000@gmail.com
+
+
+Instructions - 
+The program can be run using the following command -
+npm start.
+User can enter the name of the post and post content on the index page. On clicking the create post, a 'txt' file will be created in the 'posts' directory.
+You will be redirected and a message will be printed which indicates post has been added. User can then go back and the post will be added in the list of the posts on the index page.
+On clicking on the post you will be taken to individual post page which will contain the content.
+
+Third Party Libraries Used - 
+1. Formidable - to handle the form content.
